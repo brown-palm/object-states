@@ -13,7 +13,7 @@ by Kaleb Newman, Shijie Wang, Yuan Zang, David Heffren, and Chen Sun
 The full image dataset (~25K images) extracted from the [[ChangeIt video dataset](https://github.com/soCzech/ChangeIt)]. Each image corresponds to a key frame depicting an object in a particular physical state.
 
 #### 🔹 `ChangeIT-Subset-Crop/`
-A golden subset (~1.7K images) of **human-verified annotations**, containing **cropped images** around the object bounding box. Used for fine-grained state recognition evaluation.
+A golden subset (~1.7K images) of **human-verified annotations**, containing **cropped images** based on an object bounding box. Used for fine-grained state recognition evaluation.
 
 #### 🔹 `ChangeIT-Subset-Images/`
 Same golden subset as above, but with **full uncropped images**. Used to compare performance on full vs. object-centric inputs.
@@ -37,12 +37,11 @@ Parses frame-level annotation CSVs into a dictionary (`cat_dicts`) mapping each 
 Processes and aligns annotations with selected subset frames from `ChangeIT-Subset-Images/`, returning filtered ground-truth labels and category associations.
 
 
-
 ---
 
 ## 📊 Key Findings from paper
 
-- VLMs perform well on object recognition but struggle with **fine-grained physical state recognition**.
+- The VLMs we tested perform well on object recognition but struggle with **fine-grained physical state recognition**.
 - Even with human-labeled crops and object-centric modifications, models fail to distinguish between states like “peeled apple” vs. “cut apple”.
 - Patch-level models (e.g., FLAVA) outperform others in distractor scenarios, possibly due to better region-text binding.
 
