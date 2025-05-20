@@ -13,7 +13,6 @@ video_list = []
 i = 0
 c = 0
 cat_dicts = {}
-apple_list =  []
 for filename in os.listdir(directory):
     f = os.path.join(directory, filename)
     # print(f)
