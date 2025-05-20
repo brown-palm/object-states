@@ -1,4 +1,4 @@
-# Object States: Evaluating Vision-Language Models on Physical Object Transformations
+# Do Pre-trained Vision-Language Models Encode Object States?
 
 This repository contains the dataset used in the paper  
 **"Do Pre-trained Vision-Language Models Encode Object States?"**  
