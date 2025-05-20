@@ -56,7 +56,7 @@ Read the full paper for more insights: [arXiv:2409.10488](https://arxiv.org/abs/
 If you use this dataset or code, please cite:
 
 ```bibtex
-@article{newman2024objectstates,
+@article{objectstates,
   title={Do Pre-trained Vision-Language Models Encode Object States?},
   author={Newman, Kaleb and Wang, Shijie and Zang, Yuan and Heffren, David and Sun, Chen},
   journal={arXiv preprint arXiv:2409.10488},
