@@ -10,7 +10,7 @@ by Kaleb Newman, Shijie Wang, Yuan Zang, David Heffren, and Chen Sun
 ## 🗂️ Dataset Overview
 
 #### 🔹 `ChangeIT-Frames-Full/`
-The full image dataset (~25K images) extracted from the [ChangeIt video dataset]([https://arxiv.org/abs/2206.12449](https://github.com/soCzech/ChangeIt)). Each image corresponds to a key frame depicting an object in a particular physical state.
+The full image dataset (~25K images) extracted from the [ChangeIt video dataset]((https://github.com/soCzech/ChangeIt)). Each image corresponds to a key frame depicting an object in a particular physical state.
 
 #### 🔹 `ChangeIT-Subset-Crop/`
 A golden subset (~1.7K images) of **human-verified annotations**, containing **cropped images** around the object bounding box. Used for fine-grained state recognition evaluation.
